@@ -18,9 +18,7 @@ export default function About() {
             tellus elit sed risus. Maecenas eget condimentum velit, sit amet
             feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
           </p>
-          <div className="container">
-            <button class="contact-button ">Contact Us</button>
-          </div>
+          <button class="contact-button ">Contact Us</button>
         </div>
         <div className="basis-1/2 pl-20">
           <img src={gif} alt="gif" className="gif h-auto max-w-full" />
