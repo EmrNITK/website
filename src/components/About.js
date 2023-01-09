@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
-import pic from "src/components/giphy_1.gif";
+import gif from "./giphy_1.gif";
 
 export default function About() {
   return (
     <section id="about">
-      <div className="flex flex-row bg-black text-white  px-10 py-10">
+      <div className="flex flex-row bg-black px-10  py-10 text-white">
         <div className="basis-1/2">
-          <h1 className="text-3xl font-medium pb-10">
+          <h1 className="py-10 text-3xl font-medium">
             Embedded Systems <br></br>and{" "}
             <span className="robotics-text">Robotics</span>
           </h1>
@@ -20,11 +20,10 @@ export default function About() {
           </p>
           <div className="container">
             <button class="contact-button ">Contact Us</button>
-            <div className="sticker">C</div>
           </div>
         </div>
-        <div className="basis-1/2">
-          <img src={pic} alt="gif" />
+        <div className="basis-1/2 pl-20">
+          <img src={gif} alt="gif" className="gif h-auto max-w-full" />
         </div>
       </div>
     </section>
