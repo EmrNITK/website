@@ -2,6 +2,10 @@
     color: #3C9948;
 }
 
+.container {
+    position: relative;
+}
+
 .contact-button {
     /* Rectangle 21 */
 
@@ -18,4 +22,19 @@
     background-color: white;
     color: #000;
 
+}
+
+.sticker {
+    /* Ellipse 26 */
+    text-align: center;
+    font-weight: 400;
+    border-radius: 100%;
+    background: #3C9948;
+    opacity: 50%;
+    position: absolute;
+    z-index: 2;
+    /* green box will be above black box */
+    width: 4%;
+    right: 270px;
+    top: -15px;
 }
