@@ -1,11 +1,6 @@
 import React from "react";
+import "./About.css";
 
 export default function About() {
-  return (
-    <section id="about">
-      <button class="bg-sky-500 hover:bg-sky-700 rounded-md">
-        Save changes
-      </button>
-    </section>
-  );
+  return <section id="about"></section>;
 }
