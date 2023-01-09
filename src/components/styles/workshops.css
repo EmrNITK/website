@@ -1,0 +1,39 @@
+.bg-lr-black {
+    background: linear-gradient(270deg, #000000 -8.93%, #151515 99.99%, #0F0F0F 100%);
+}
+
+.bg-glass {
+    background: linear-gradient(112.37deg, rgba(255, 255, 255, 0.5) -16.71%, rgba(255, 255, 255, 0.25) 69.03%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(7.5px);
+    border-radius: 15px;
+}
+
+.workshops_img {
+    width: calc(100% - 20px - 48px);
+    animation: workshops-img-animation 500ms;
+}
+
+@keyframes workshops-img-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #workshops  {
+        height: 80%;
+    }
+    .workshops_img {
+        width: calc(100% - 20px - 24px);
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #workshops  {
+        height: 85%;
+    }
+}
