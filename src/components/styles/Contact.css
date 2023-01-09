@@ -127,12 +127,18 @@
   }
   .contactForm .inputBox input[type="submit"]
   {
+    
+  max-width: 100%;
+  padding: 15px;
+    float: none;
+    display: block;
     width: 400px;
     background: #00bcd4;
     color: none;
     cursor: pointer;
     padding: 10px;
     font-size:18px;
+    justify-content: center;
   }
   @media (max-width: 991px)
   {
