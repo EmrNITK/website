@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css";
-import gif from "./giphy_1.gif";
+import "./styles/About.css";
+import gif from "./images/giphy_1.gif";
 
 export default function About() {
   return (
