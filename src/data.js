@@ -1,3 +1,6 @@
+import workshop_img from "./assets/workshop.png";
+import test_img from "./assets/test.png";
+
 export const team = [
   {
     name: "Harsh",
@@ -18,9 +21,25 @@ export const events = [
   }
 ]
 
-export const workshop = [
+export const workshopData = [
   {
-    img: "img_path",
+    img: workshop_img,
     topic: "dip"
-  }
+  },
+  {
+    img: test_img,
+    topic: "dip"
+  },
+  {
+    img: workshop_img,
+    topic: "dip"
+  },
+  {
+    img: test_img,
+    topic: "dip"
+  },
+  {
+    img: workshop_img,
+    topic: "dip"
+  },
 ]
