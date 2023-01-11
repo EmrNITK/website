@@ -6,23 +6,51 @@
     position: relative;
 }
 
+.teamH {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
 .teamRow {
     position: absolute;
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    padding: 20px;
     text-align: center;
 }
 
+.teamPoster {
+    display: flex;
+    overflow-y: hidden;
+    width: auto;
+    overflow-x: auto;
+    padding: 20px;
+}
+
 .teamM {
-    object-fit: contain;
-    width: 100%;
     margin-right: 10px;
     transition: transform 450ms;
 }
 
+.teamM:hover {
+    transform: scale(1.08);
+}
+
 .teamMIMG {
-    border-radius: 2px;
-    border-color: green;
+    border-radius: 50%;
+    border: 5px solid #186F3A;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    padding-top: 5%;
+
+}
+
+.icon {
+    width: 100%;
+    padding-right: 10%;
+    align-items: center;
 }
