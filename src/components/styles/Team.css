@@ -21,7 +21,6 @@
 .teamPoster {
     display: flex;
     overflow-y: hidden;
-    width: auto;
     overflow-x: auto;
     padding: 20px;
 }
@@ -29,6 +28,7 @@
 .teamM {
     margin-right: 10px;
     transition: transform 450ms;
+    width: 200px;
 }
 
 .teamM:hover {
