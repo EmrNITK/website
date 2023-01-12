@@ -1,54 +1,56 @@
+.container {
+    position: relative;
+}
 
-  .team {
-    padding: 0 0 50px 0;
+.team_bg {
     position: relative;
-    background-color: black;
-  }
-  .team-bx {
-    background: #151515;
-    border-radius: 64px;
-    text-align: center;
-    padding: 60px 50px;
-    margin-top: -60px;
-  }
-  
-  .team-slider {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-  }
-  .team-slider .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-  }
-  .team-heading{
+}
+
+.teamH {
     color: white;
-    font-size: 40px;
-    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
 
-  }
-  .card {
-    position: relative;
-    padding: 25px 16px;
-    color:white;
-    background: linear-gradient(112.37deg, rgba(255, 255, 255, 0.5) -16.71%, rgba(255, 255, 255, 0.25) 69.03%);
-    /* background-color: black; */
-    opacity: 0.7;
-    margin: 57px 24%;
-    width: 301px;
-      height: 367px;
-    /* left: 556px;
-      top: 2624px; */
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(7.5px);
-      text-align: left;
-      border-radius: 15px;
-  
-      
-    }
-  @media (min-width:1700px) {
-    main .container {
-      max-width: 100%;
-      padding: 0 150px;
-    }
-  }
+.teamRow {
+    position: absolute;
+    text-align: center;
+}
+
+.teamPoster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.teamM {
+    margin-right: 10px;
+    transition: transform 450ms;
+    width: 200px;
+}
+
+.teamM:hover {
+    transform: scale(1.08);
+}
+
+.teamMIMG {
+    border-radius: 50%;
+    border: 5px solid #186F3A;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    padding-top: 5%;
+
+}
+
+.icon {
+    width: 100%;
+    padding-right: 10%;
+    align-items: center;
+}

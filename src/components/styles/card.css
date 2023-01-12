@@ -33,8 +33,8 @@
   .social-icon {
     display: inline-block;
     position: relative;
-    top: 82px;
-    left: 2%;
+    top: 65px;
+    left: -6%;
     width: 500px;
     margin: 9px 22%;
 }
@@ -48,8 +48,8 @@
 
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+  width: 54px;
+    height: 54px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
