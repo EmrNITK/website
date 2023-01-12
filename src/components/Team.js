@@ -1,15 +1,4 @@
 import React from "react";
-
-<<<<<<< Updated upstream
-export default function Team(){
-
-  return (
-    <section id="team">
-
-    </section>
-  )
-}
-=======
 import Carousel from 'react-multi-carousel';
 import './styles/Team.css';
 import './styles/card.css';
@@ -92,4 +81,4 @@ export default function Team(){
     </section>
   )
 }
->>>>>>> Stashed changes
+
