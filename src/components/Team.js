@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
-import './styles/Team.css';
-import './styles/card.css';
+import '../assets/styles/Team.css';
+import '../assets/styles/card.css';
 import 'react-multi-carousel/lib/styles.css';
 import Card from "./Teamcard";
 export default function Team(){
