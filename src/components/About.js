@@ -1,11 +1,11 @@
 import React from "react";
-import "./styles/About.css";
-import gif from "./images/giphy_1.gif";
+import "../assets/styles/About.css";
+import gif from "../assets/images/giphy_1.gif";
 
 export default function About() {
   return (
     <section id="about">
-      <div className="flex flex-row bg-black px-10  py-10 text-white">
+      <div className="flex flex-row bg-lr-black px-10  py-10 text-white">
         <div className="basis-1/2">
           <h1 className="py-10 text-3xl font-medium">
             Embedded Systems <br></br>and{" "}

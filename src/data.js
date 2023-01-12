@@ -1,5 +1,5 @@
-import workshop_img from "./assets/workshop.png";
-import test_img from "./assets/test.png";
+import workshop_img from "./assets/images/workshop.png";
+import test_img from "./assets/images/test.png";
 
 export const team = [
   {
