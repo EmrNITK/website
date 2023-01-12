@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles/events.css"
-import Image from "./images/chart.png"
+import "../assets/styles/events.css"
+import Image from "../assets/images/chart.png"
 
 export default function Events(){
 

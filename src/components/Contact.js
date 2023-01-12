@@ -1,9 +1,9 @@
 import React from 'react'
-import './styles/Contact.css'
+import '../assets/styles/Contact.css'
 function contact() {
     return (
-        <div>
-          <section className="contact" >
+        <>
+          <section id="contact" className="contact" >
     <div className="content">
         <h2>Contact Us</h2>
         <p>Embedded System and Robotics ,is an organization whose main motive is to empower the student  to know about  DIP,Embedded System and Robo Soccer,
@@ -38,25 +38,25 @@ function contact() {
                 <h2>Send Message</h2>
                 <div className="inputBox">
                     <input type="text" name="" required="required"/>
-                    <span>Full Name</span> 
+                    <span>Full Name</span>
                 </div>
                 <div className="inputBox">
                     <input type="text" name="" required="required"/>
-                    <span>Email</span> 
+                    <span>Email</span>
                 </div>
                 <div className="inputBox">
                     <textarea required="required"></textarea>
-                    <span>Type Your message</span> 
+                    <span>Type Your message</span>
                 </div>
                 <div className="inputBox">
                     <input type="submit" name="" value="Send"/>
-                 
+
                 </div>
             </form>
         </div>
     </div>
   </section>
-        </div>
+        </>
     )
 }
 

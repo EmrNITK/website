@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles/workshops.css";
+import "../assets/styles/workshops.css";
 import { workshopData } from "../data";
 
 export default function Workshops() {
