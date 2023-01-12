@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/card.css';
+import '../assets/styles/card.css';
 import navIcon1 from '../assets/nav-icon1.svg';
 import navIcon3 from '../assets/nav-icon3.svg';
 import navIcon4 from '../assets/nav-icon4.svg';
