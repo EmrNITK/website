@@ -6,11 +6,11 @@ import navIcon4 from '../assets/nav-icon4.svg';
 function Card(props) {
   return (
     <div className="card">
-
+      
         <img className="circle-img" src={props.img} alt="avatar_img" />
         <p className="name">{props.name}</p>
-
-
+      
+     
         <div className="social-icon">
                 <div className = "icon-div"><a  href={props.linkedin}><img src={navIcon1} alt="linkedin" /></a></div>
                 <div className = "icon-div"><a href={props.github}><img src={navIcon4} alt="github" /></a></div>
@@ -19,5 +19,3 @@ function Card(props) {
     </div>
   );
 }
-
-export default Card;
