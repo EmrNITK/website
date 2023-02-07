@@ -127,7 +127,11 @@
   }
   .contactForm .inputBox input[type="submit"]
   {
-    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 35vmin;
     background: #00bcd4;
     color: none;
     cursor: pointer;
