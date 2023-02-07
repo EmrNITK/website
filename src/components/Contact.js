@@ -54,7 +54,7 @@ function contact() {
                 </div>
             </form>
         </div> */}
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.336852476472!2d76.81218044835846!3d29.945833673846664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e3f51bab18cb5%3A0x96200205143e35f6!2sNIT%2C%20Thanesar%2C%20Haryana%20136119!5e0!3m2!1sen!2sin!4v1675796177740!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.336852476472!2d76.81218044835846!3d29.945833673846664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e3f51bab18cb5%3A0x96200205143e35f6!2sNIT%2C%20Thanesar%2C%20Haryana%20136119!5e0!3m2!1sen!2sin!4v1675796177740!5m2!1sen!2sin" width="100%" height="450" style={{border:0, marginTop: "2%"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
     </div>
   </section>
         </>
