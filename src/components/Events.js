@@ -8,7 +8,7 @@ export default function Events(){
     <section id="events">
       <div className="event-container">
         <h1>EVENTS</h1>
-        <div className="box">
+        <div className="box-events">
           <div className="items" >
             <img src={Image} />
             <h2>SIMULATOR</h2>

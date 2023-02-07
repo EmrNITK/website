@@ -1,6 +1,6 @@
 .events{
-    margin: 3px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
 }
 .event-container{
     margin: 2px;
@@ -18,10 +18,10 @@
     font-size: 40px;
     line-height: 47px;
 }
-.box {
+.box-events {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 12px;
 }
@@ -36,7 +36,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 10px;
-    transition: width 0.5s, height 0.5s;
+    transition: all 0.3s;
 }
 .items > h2 {
     display: flex;
@@ -65,17 +65,17 @@
     justify-content: center;
     align-items: center;
     padding: 5px;
-    padding-left: 8px;
+    padding-left: 10px;
+    text-align: justify;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    
 }
 .items:hover{
-    background: #000;
-    width: 277px;
-    height: 277px;
+    transform: translateY(-2vh);
     box-shadow: 10px 10px 10px #888888;
     color: white;
 }
