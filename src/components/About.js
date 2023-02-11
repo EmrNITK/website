@@ -8,7 +8,7 @@ export default function About() {
       <div className="flex flex-row bg-lr-black px-10  py-10 text-white">
         <div className="basis-1/2">
           <h1 className="py-10 text-3xl font-medium">
-            Embedded Systems <br></br>and{" "}
+            Embeddedafdfsdf Systems <br></br>and{" "}
             <span className="robotics-text">Robotics</span>
           </h1>
           <p className="pb-10">
