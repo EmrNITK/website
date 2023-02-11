@@ -35,5 +35,6 @@
 @media only screen and (max-width: 640px){
     #workshops  {
         height: 85%;
+        font-size: 11px;
     }
 }
