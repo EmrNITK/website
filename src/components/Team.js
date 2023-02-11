@@ -28,15 +28,15 @@ export default function Team(){
   return (
 
 
-    <section className = "team" id="teams">
+    <section className = "team"  id="teams">
       <div className="container_2">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <p className = "team-heading">Team</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <p className = "team-heading">TEAM</p>
+                        <Carousel responsive={responsive} infinite={true} arrows={true} className="owl-carousel owl-theme skill-slider">
                           
-                          <Card
+                         <Card
                           name= "Lorem Ipsum"
                           img= ""
                           linkedin="xyz"
