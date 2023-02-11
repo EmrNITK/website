@@ -30,6 +30,7 @@
 .footer-icons{
     width: 50px;
     font-size: 25px;    
+    text-align: center;
 }
 .footer-title-container{
     color: #FFFFFF;
@@ -58,4 +59,76 @@
     background-color: white;
     color: #000;
     transition: all 0.1s;
+}
+
+
+@media screen and (max-width: 800px) {
+    .footer-container{
+        padding: 75px 50px 100px 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer-container{
+        padding: 50px 50px 50px 50px;
+    }
+    .footer-container-small{
+        flex-direction: column;
+    }
+    .footer-title-container{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .footer-link-container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0;
+        border-left: none;
+        font-size: large;
+        margin-bottom: 50px;
+    }
+    .footer-icon-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:0;
+        border-left: none;
+        font-size: large;
+    }
+}
+@media screen and (max-width: 420px) {
+    .footer-container{
+        padding: 50px 20px;
+    }
+    .footer-container-small{
+        flex-direction: column;
+    }
+    .footer-title-container{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-size: larger;
+        margin-bottom: 20px;
+    }
+    .footer-link-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding:0;
+        margin-bottom: 20px;
+        border-left: none;
+        font-size: large;
+        text-align: center;
+    }
+    .footer-icon-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:0;
+        border-left: none;
+        font-size: large;
+    }
+    .footer-contact-button{
+        margin-top:20px ;
+    }
+    .footer-link{
+        margin-top: 10px;
+    }
 }

@@ -18,7 +18,7 @@ export default function Footer(){
                 </div>
                 <div className='footer-link-container'>
                     <a href='#Home' className='footer-link'>Home</a>
-                    <a href='#Events' className='footer-link'>Events</a>
+                    <a href='#Events' className='footer-link '>Events</a>
                     <a href='#Team' className='footer-link'>Team</a>
                     <a href='#Workshops' className='footer-link'>Workshops</a>
                 </div>
