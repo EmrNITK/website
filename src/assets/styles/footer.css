@@ -1,0 +1,61 @@
+
+.footer-container{
+    margin: auto;
+    padding: 75px 150px 100px 150px;
+    background: #1E1E1E;
+}
+.footer-container-small{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+}
+.footer-link-container, .footer-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #FFFFFF;
+    padding-left: 25px;
+}
+.footer-link-container{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-icon-container{
+    color: #FFFFFF;
+}
+.footer-icons{
+    width: 50px;
+    font-size: 25px;    
+}
+.footer-title-container{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: larger;
+    line-height: normal;
+}
+.footer-robotics-text{
+    color:#3C9948;
+}
+.footer-contact-button{
+    background: linear-gradient(112.37deg, rgba(255, 255, 255, 0.5) -16.71%, rgba(255, 255, 255, 0.25) 69.03%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: small;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.footer-contact-button:hover {
+    background-color: white;
+    color: #000;
+    transition: all 0.1s;
+}
