@@ -14,7 +14,7 @@ function Card(props) {
         <div className="social-icon">
                 <div className = "icon-div"><a  href={props.linkedin}><img src={navIcon1} alt="linkedin" /></a></div>
                 <div className = "icon-div"><a href={props.github}><img src={navIcon4} alt="github" /></a></div>
-                <div className = "icon-div"><a href={props.insta}><img src={navIcon3} alt="instagram" /></a></div>
+                <div className = "icon-div"><a href={props.email}><img src={navIcon3} alt="email" /></a></div>
               </div>
     </div>
   );

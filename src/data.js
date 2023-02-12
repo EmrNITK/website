@@ -43,6 +43,14 @@ export const team = [
     github_profile: "github.com/HarshKakran/",
     email: "harshkakran05@gmail.com",
   },
+  {
+    name: "Harsh",
+    pos: "Member",
+    img: "img_path",
+    linkedin_profile: "https://www.linkedin.com/in/harshkakran/",
+    github_profile: "github.com/HarshKakran/",
+    email: "harshkakran05@gmail.com",
+  },
 ];
 
 export const events = [
