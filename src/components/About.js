@@ -5,9 +5,9 @@ import gif from "../assets/images/giphy_1.gif";
 export default function About() {
   return (
     <section id="about">
-      <div className="bg-lr-black flex flex-col px-10 py-10 text-white  md:flex-row ">
+      <div className="bg-lr-black flex flex-col text-white  md:flex-row about_text">
         <div className="basis-1/2">
-          <h1 className="py-5 text-3xl font-medium md:py-10">
+          <h1 className="py-5 text-3xl font-medium md:py-10%">
             Embedded Systems <br></br>and{" "}
             <span className="robotics-text">Robotics</span>
           </h1>
@@ -18,7 +18,7 @@ export default function About() {
             tellus elit sed risus. Maecenas eget condimentum velit, sit amet
             feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
           </p>
-          <div className="container">
+          <div className="about_container">
             <button class="contact-button ">Contact Us</button>
             <div className="circle">C</div>
           </div>

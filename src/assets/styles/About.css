@@ -2,7 +2,7 @@
     color: #3C9948;
 }
 
-.container {
+.about_container {
     position: relative;
 }
 
@@ -35,4 +35,10 @@
     font-size: x-large;
     margin-left: 160px;
 
+}
+
+.about_text{
+    padding-left: 10%;
+    padding-top: 30px;
+    padding-right: 40px;
 }
