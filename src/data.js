@@ -1,4 +1,5 @@
 import workshop_img from "./assets/images/workshop.png";
+import logo_img from "./assets/images/logo.png";
 import test_img from "./assets/images/test.png";
 
 export const team = [
@@ -59,7 +60,7 @@ export const workshopData = [
     topic: "dip",
   },
   {
-    img: test_img,
+    img: logo_img,
     topic: "dip",
   },
   {
