@@ -12,6 +12,7 @@
 .workshops_img {
     width: calc(100% - 20px - 48px);
     animation: workshops-img-animation 500ms;
+    /* transition: fade-in-out; */
 }
 
 @keyframes workshops-img-animation {
