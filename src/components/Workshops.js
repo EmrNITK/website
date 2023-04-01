@@ -16,8 +16,8 @@ export default function Workshops() {
       <div className="w-full h-[70%] bg-lr-black text-white">
         <p className="upper font-semibold text-xl text-center">Workshops</p>
       </div>
-      <div className="w-full h-[30%] bg-white"></div>
-      <div className="absolute h-[80%] w-[95%] sm:w-[90%] md:w-[80%] bg-white top-[10%] left-[2.5%] sm:left-[5%] md:left-[10%] bg-glass sm:px-3 md:px-6 py-3">
+      <div className="w-full h-[40%] bg-white"></div>
+      <div className="absolute h-[70%] w-[95%] sm:w-[90%] md:w-[80%] bg-white top-[10%] left-[2.5%] sm:left-[5%] md:left-[10%] bg-glass sm:px-3 md:px-6 py-3">
         <div className="w-full h-[80%] flex justify-between">
           <div className="h-full w-[10px] bg-green-400 "></div>
           {workshopData.map((e, idx) =>
@@ -25,15 +25,14 @@ export default function Workshops() {
               <img
                 key={idx.toString()}
                 src={workshopData[index].img}
-                className="h-full workshops_img rounded-lg shadow-xl transition-all ease-in-out delay-1000"
+                className="h-full workshops_img rounded-lg shadow-xl transition-slide fade-in-out delay-2000"
               />
             ) : null
           )}
           <div className="h-full w-[10px] bg-green-400 "></div>
         </div>
         <p className="mt-2 lg:mt-8 text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur adipisicing.
+        We host multiple Workshops throughout the year on technologies like Embedded System, Digital Image processing, AI/ML etc. It creates an environment for students to learn and explore multiple tech domains
         </p>
       </div>
     </section>

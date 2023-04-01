@@ -5,7 +5,7 @@
 }
 
 #teams {
-  background-image: url(../images/teamback.png);
+  /* background-image: url(../images/teamback.png); */
   background-size: contain;
   background-position: center;
   background-position-y: top;
@@ -57,7 +57,7 @@
   /* z-index:1; */
 }
 #teams {
-  background-image: url(../images/teamback.png);
+  /* background-image: url(../images/teamback.png); */
   background-size: contain;
   background-position: center;
   background-position-y: top;

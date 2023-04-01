@@ -42,10 +42,12 @@ export default function Team() {
                     <Card
                       // key={idx.toString()}
                       name = {team.name}
+                      position = {team.position}
                       img = {team.img}
                       linkedin={team.linkedin_profile}
                       github={team.github_profile}
                       email={team.email}
+                      insta= {team.insta}
                       />
                   )
                 ))}
