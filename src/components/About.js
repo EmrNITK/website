@@ -5,18 +5,17 @@ import gif from "../assets/images/giphy_1.gif";
 export default function About() {
   return (
     <section id="about">
-      <div className="bg-lr-black flex flex-col text-white  md:flex-row about_text">
+      <div className="bg-lr-black about_text flex flex-col  text-white md:flex-row">
         <div className="basis-1/2">
-          <h1 className="py-5 text-3xl font-medium md:py-10%">
+          <h1 className="md:py-10% py-5 text-3xl font-medium">
             Embedded Systems <br></br>and{" "}
             <span className="robotics-text">Robotics</span>
           </h1>
           <p className="pb-5 md:pb-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-            tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-            feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
+            Embedded Systems and Robotics club(EmR), a heaven for tech-minded
+            people and robot enthusiasts. Here at EmR, we focus on spreading the
+            knowledge of embedded systems and robotics to young engineers and
+            building new helpful projects for the community.
           </p>
           <div className="about_container">
             <button class="contact-button ">Contact Us</button>
